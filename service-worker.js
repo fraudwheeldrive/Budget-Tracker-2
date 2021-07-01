@@ -7,7 +7,8 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE= [
     "./public/html/index.html",
     "./public/css/style.css.",
-
+    "./public/js/index.js",
+    "./server.js"
 ]
 
 
@@ -53,7 +54,7 @@ self.addEventListener('fetch', function (e) {
                 console.log ('file is not cached,fetching : ' + e.request.url)
                 return fetch(e.request)
             }
-            
+
         })
 
     )
