@@ -1,4 +1,4 @@
-app.use('/', routes)
+
 
 let transactions = [];
 let myChart;
