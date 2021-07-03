@@ -1,4 +1,5 @@
 //create database connection 
+
 //create variable to hold db connection 
 let db;
 //establish connection to indexedDB called budget-trackerdb
@@ -31,3 +32,48 @@ function saveRecord(record) {
 
     budgetObjectStore.add(record);
 }
+
+function uploadBudget() {
+    // open a transaction on your db 
+    const transaction = db.transaction(['new_budget'], 'readwrite');
+
+    //access object store 
+    const budgetObjectStore = transaction.objectStore('new_budget');
+    
+    // get all records from store and set variable 
+    const getAll = budgetObjectStore.getAll();
+
+    // upon a successful .getAll() run this function 
+    if(getAll.result.length >0) {
+        fetch('/api/transaction/bulk', {
+            method: 'POST',
+            body: JSON.stringify(getAll.result),
+            headers: {
+                Accept: 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(serverResponse => {
+          if (serverResponse.message) {
+            throw new Error(serverResponse);
+          }
+          // open one more transaction
+          const transaction = db.transaction(['new_budget'], 'readwrite');
+          // access the new_pizza object store
+          const pizzaObjectStore = transaction.objectStore('new_budget');
+          // clear all items in your store
+          pizzaObjectStore.clear();
+
+          alert('All Budget updates have been submitted!');
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    }
+  };
+
+
+  //listen to app coming back online 
+
+  window.addEventListener('online', uploadBudget);

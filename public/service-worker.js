@@ -5,11 +5,11 @@ const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE= [
-    "./public/html/index.html",
-    "./public/css/style.css.",
-    "./public/js/index.js",
-    "./server.js"
-]
+    "./index.html",
+    "./css/style.css",
+    "./js/index.js",
+    "./js./db.js"
+];
 
 
 
