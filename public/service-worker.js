@@ -8,9 +8,25 @@ const FILES_TO_CACHE= [
     "./index.html",
     "./css/style.css",
     "./js/index.js",
-    "./js./db.js"
+    "./js./idb.js"
 ];
 
+self.addEventListener('fetch', function (e) {
+    console.log('fetch request : ' + e.request.url)
+    e.respondWith(
+        caches.match(e.request).then(function (request) {
+            if (request) { 
+                console.log('responding with cache : ' + e.request.url)
+                return request
+            } else { 
+                console.log ('file is not cached,fetching : ' + e.request.url)
+                return fetch(e.request)
+            }
+
+        })
+
+    )
+})
 
 
 
@@ -43,19 +59,3 @@ self.addEventListener('activate', function (e) {
     );
 });
 
-self.addEventListener('fetch', function (e) {
-    console.log('fetch request : ' + e.request.url)
-    e.respondWith(
-        caches.match(e.request).then(function (request) {
-            if (request) { 
-                console.log('responding with cache : ' + e.request.url)
-                return request
-            } else { 
-                console.log ('file is not cached,fetching : ' + e.request.url)
-                return fetch(e.request)
-            }
-
-        })
-
-    )
-})
