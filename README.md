@@ -16,7 +16,7 @@ Budget-Tracker is a simple application that allows you to track your ongoing exp
 has been designed to work on your desktop or mobile device and has offline functionality. This application can be 
 used in browser or downloaded to your local machine 
 
-<img src="" alt="install on Chrome" width="400"/>
+<img src="" alt="Application Overview" width="400"/>
 
 ## Installation on Local Machine / Mobile Device 
 
@@ -26,7 +26,7 @@ used in browser or downloaded to your local machine
 * select `install app` and select install 
 * navigate to your home screen and find app and launch 
 
-<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/how%20to%20install%20desktop.PNG" alt="install on Android" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/android-installation.jpg" alt="install on Android" width="400"/>
 
 
 ### To install on your desktop via chrome follow these steps:
