@@ -36,7 +36,7 @@ used in browser or downloaded to your local machine
 * application will now be launchable offline from your desktop 
 
 
-<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/android-installation.jpg" alt="install on Chrome" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/install%20on%20desktop.webp" alt="install on Chrome" width="400"/>
 
 
 
@@ -49,19 +49,11 @@ negative value for money spent, like on a bill, or positive, money in like a pay
 give each transaction a name using the `name of transaction` field. Once added your transaction is reflected
 in the graph below aiding you in tracking spending trends. 
 
-
-
-
 ## Usage 
 clone repo via SSH or HTTP and create new fork for any changes necessary
 
 ## Contributing
  ensure a pull request made before merging 
-
-
-## Tests
-to run program use command on commandline
-node index 
  
 ## Email Address
 andrew@andrew.com 
@@ -72,8 +64,6 @@ This app was built with:
 * mongoDB
 * IndexedDB
 
-
-with reference from Mozilla Developer Network, NPM and Node documentation. 
 
 ## License
 MIT
