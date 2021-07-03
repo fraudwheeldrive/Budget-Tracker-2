@@ -1,4 +1,3 @@
-//array for cached files // need to cache JS and and HTML 
 
 const APP_PREFIX = 'Budget-Tracker-2';
 const VERSION = 'version_01';
