@@ -61,6 +61,6 @@
       "display": "standalone",
       "background_color": "#dddddd",
       "theme_color": "#dddddd",
-      "start_rule": "./index.html"
+      "start_url": "./index.html"
     
       }
