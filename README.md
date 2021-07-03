@@ -26,7 +26,7 @@ used in browser or downloaded to your local machine
 * select `install app` and select install 
 * navigate to your home screen and find app and launch 
 
-<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/android-installation.jpg" alt="install on android" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/budget-tracker-screenshot.PNG" alt="Applitcation Screenshot" width="400"/>
 
 
 ### To install on your desktop via chrome follow these steps:
