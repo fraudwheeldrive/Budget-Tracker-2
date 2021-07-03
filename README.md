@@ -26,17 +26,16 @@ used in browser or downloaded to your local machine
 * select `install app` and select install 
 * navigate to your home screen and find app and launch 
 
-<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/how%20to%20install%20desktop.PNG" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/how%20to%20install%20desktop.PNG" alt="install on Android" width="400"/>
 
 
 ### To install on your desktop via chrome follow these steps:
 * launch website in your browser [Budget Tracker](https://bdgt-trkr.herokuapp.com/)
 * in search bar at the top right click on the download icon 
 * name the application the way you would like it to be named and instal
-* application will now be launchable offline from your desktop 
+* application will now be launchable offline from your 
 
-
-<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/install%20on%20desktop.webp" alt="install on Chrome" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/how%20to%20install%20desktop.PNG" alt="install on Desktop" width="400"/>
 
 
 
