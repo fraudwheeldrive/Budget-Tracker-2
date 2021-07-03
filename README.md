@@ -34,7 +34,7 @@ used in browser or downloaded to your local machine
 * application will now be launchable offline from your desktop 
 
 
-<img src="" alt="install on Chrome" width="400"/>
+<img src="https://github.com/fraudwheeldrive/Budget-Tracker-2/blob/main/public/images/android-installation.jpg" alt="install on Chrome" width="400"/>
 
 
 
